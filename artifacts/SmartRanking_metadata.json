@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rollNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "insertMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "topperMarks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "topperRollNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "SmartRanking"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x293d7d9840cf7eabb6f9cc7c94a98a125d84d0eb60c128d3a10be0cd1e6734bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b848b789de2916ef0a1c0b2b040673af188f127fda3d04dc0d71b7ce0c60da31",
+				"dweb:/ipfs/Qmcc2RWcxGXXtTTAq6vmWZzTH6TMW9QmhGethAQkUFCN8z"
+			]
+		}
+	},
+	"version": 1
+}
